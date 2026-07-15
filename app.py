@@ -3,6 +3,9 @@ import joblib
 import re
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
+import nltk
+
+nltk.download("stopwords")
 
 st.set_page_config(
     page_title="AI Fake News Detection",
